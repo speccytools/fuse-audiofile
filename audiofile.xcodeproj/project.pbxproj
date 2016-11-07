@@ -1,0 +1,630 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B623958E0C1CF586003B8E87 /* aes.c in Sources */ = {isa = PBXBuildFile; fileRef = 0000000000000000003A29E0 /* aes.c */; };
+		B623958F0C1CF586003B8E87 /* af_vfs.c in Sources */ = {isa = PBXBuildFile; fileRef = 0000000000000000003F7FC0 /* af_vfs.c */; };
+		B62395900C1CF586003B8E87 /* aiff.c in Sources */ = {isa = PBXBuildFile; fileRef = 0000000000000000003BA6D0 /* aiff.c */; };
+		B62395910C1CF586003B8E87 /* aiffwrite.c in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000388830 /* aiffwrite.c */; };
+		B62395920C1CF586003B8E87 /* aupv.c in Sources */ = {isa = PBXBuildFile; fileRef = 0000000000000000166118B0 /* aupv.c */; };
+		B62395930C1CF586003B8E87 /* avr.c in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000016613DF0 /* avr.c */; };
+		B62395940C1CF586003B8E87 /* avrwrite.c in Sources */ = {isa = PBXBuildFile; fileRef = 0000000000000000003B9C10 /* avrwrite.c */; };
+		B62395950C1CF586003B8E87 /* byteorder.c in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000016602520 /* byteorder.c */; };
+		B62395960C1CF586003B8E87 /* compression.c in Sources */ = {isa = PBXBuildFile; fileRef = 0000000000000000003D4B80 /* compression.c */; };
+		B62395970C1CF586003B8E87 /* data.c in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000310F20 /* data.c */; };
+		B62395980C1CF586003B8E87 /* debug.c in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000327F20 /* debug.c */; };
+		B62395990C1CF586003B8E87 /* error.c in Sources */ = {isa = PBXBuildFile; fileRef = 0000000000000000003D8170 /* error.c */; };
+		B623959A0C1CF586003B8E87 /* extended.c in Sources */ = {isa = PBXBuildFile; fileRef = 0000000000000000003DC520 /* extended.c */; };
+		B623959B0C1CF586003B8E87 /* format.c in Sources */ = {isa = PBXBuildFile; fileRef = 00000000000000000030C140 /* format.c */; };
+		B623959C0C1CF586003B8E87 /* g711.c in Sources */ = {isa = PBXBuildFile; fileRef = 0000000000000000166160D0 /* g711.c */; };
+		B623959D0C1CF586003B8E87 /* iff.c in Sources */ = {isa = PBXBuildFile; fileRef = 0000000000000000003A2A40 /* iff.c */; };
+		B623959E0C1CF586003B8E87 /* iffwrite.c in Sources */ = {isa = PBXBuildFile; fileRef = 0000000000000000003A2A90 /* iffwrite.c */; };
+		B623959F0C1CF586003B8E87 /* instrument.c in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000016617950 /* instrument.c */; };
+		B62395A00C1CF586003B8E87 /* ircam.c in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000016616130 /* ircam.c */; };
+		B62395A10C1CF586003B8E87 /* ircamwrite.c in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000016616180 /* ircamwrite.c */; };
+		B62395A20C1CF586003B8E87 /* loop.c in Sources */ = {isa = PBXBuildFile; fileRef = 0000000000000000166161D0 /* loop.c */; };
+		B62395A30C1CF586003B8E87 /* marker.c in Sources */ = {isa = PBXBuildFile; fileRef = 0000000000000000166180B0 /* marker.c */; };
+		B62395A40C1CF586003B8E87 /* misc.c in Sources */ = {isa = PBXBuildFile; fileRef = 0000000000000000166077B0 /* misc.c */; };
+		B62395A50C1CF586003B8E87 /* modules.c in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000016607800 /* modules.c */; };
+		B62395A60C1CF586003B8E87 /* adpcm.c in Sources */ = {isa = PBXBuildFile; fileRef = 00000000000000001660BDA0 /* adpcm.c */; };
+		B62395A70C1CF586003B8E87 /* g711.c in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000016620470 /* g711.c */; };
+		B62395A80C1CF586003B8E87 /* ima.c in Sources */ = {isa = PBXBuildFile; fileRef = 0000000000000000166179C0 /* ima.c */; };
+		B62395A90C1CF586003B8E87 /* msadpcm.c in Sources */ = {isa = PBXBuildFile; fileRef = 0000000000000000166149D0 /* msadpcm.c */; };
+		B62395AA0C1CF586003B8E87 /* pcm.c in Sources */ = {isa = PBXBuildFile; fileRef = 00000000000000001660CC10 /* pcm.c */; };
+		B62395AB0C1CF586003B8E87 /* rebuffer.c in Sources */ = {isa = PBXBuildFile; fileRef = 0000000000000000003E46C0 /* rebuffer.c */; };
+		B62395AC0C1CF586003B8E87 /* next.c in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000016620170 /* next.c */; };
+		B62395AD0C1CF586003B8E87 /* nextwrite.c in Sources */ = {isa = PBXBuildFile; fileRef = 0000000000000000003A0D00 /* nextwrite.c */; };
+		B62395AE0C1CF586003B8E87 /* nist.c in Sources */ = {isa = PBXBuildFile; fileRef = 0000000000000000166155C0 /* nist.c */; };
+		B62395AF0C1CF586003B8E87 /* nistwrite.c in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000016612050 /* nistwrite.c */; };
+		B62395B00C1CF586003B8E87 /* openclose.c in Sources */ = {isa = PBXBuildFile; fileRef = 00000000000000001661E960 /* openclose.c */; };
+		B62395B10C1CF586003B8E87 /* pcm.c in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000016616EE0 /* pcm.c */; };
+		B62395B20C1CF586003B8E87 /* query.c in Sources */ = {isa = PBXBuildFile; fileRef = 00000000000000001661D530 /* query.c */; };
+		B62395B30C1CF586003B8E87 /* raw.c in Sources */ = {isa = PBXBuildFile; fileRef = 00000000000000001661D2A0 /* raw.c */; };
+		B62395B40C1CF586003B8E87 /* setup.c in Sources */ = {isa = PBXBuildFile; fileRef = 00000000000000001661E7D0 /* setup.c */; };
+		B62395B50C1CF586003B8E87 /* track.c in Sources */ = {isa = PBXBuildFile; fileRef = 00000000000000001660BB40 /* track.c */; };
+		B62395B60C1CF586003B8E87 /* units.c in Sources */ = {isa = PBXBuildFile; fileRef = 00000000000000001661E180 /* units.c */; };
+		B62395B70C1CF586003B8E87 /* util.c in Sources */ = {isa = PBXBuildFile; fileRef = 00000000000000001661F380 /* util.c */; };
+		B62395B80C1CF586003B8E87 /* wave.c in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000016616B60 /* wave.c */; };
+		B62395B90C1CF586003B8E87 /* wavewrite.c in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000016616BD0 /* wavewrite.c */; };
+		B66F97940C1D6FA3003CB91F /* audiofile.h in Headers */ = {isa = PBXBuildFile; fileRef = 000000000000000016607850 /* audiofile.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B66F97960C1D6FAD003CB91F /* aupvlist.h in Headers */ = {isa = PBXBuildFile; fileRef = 00000000000000001661ECE0 /* aupvlist.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		00000000000000000030C140 /* format.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 30; path = format.c; sourceTree = "<group>"; };
+		000000000000000000310F20 /* data.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 30; path = data.c; sourceTree = "<group>"; };
+		000000000000000000327F20 /* debug.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 30; path = debug.c; sourceTree = "<group>"; };
+		000000000000000000388830 /* aiffwrite.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 30; path = aiffwrite.c; sourceTree = "<group>"; };
+		0000000000000000003A0D00 /* nextwrite.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 30; path = nextwrite.c; sourceTree = "<group>"; };
+		0000000000000000003A2720 /* af_vfs.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = af_vfs.h; sourceTree = "<group>"; };
+		0000000000000000003A28E0 /* debug.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = debug.h; sourceTree = "<group>"; };
+		0000000000000000003A29E0 /* aes.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 30; path = aes.c; sourceTree = "<group>"; };
+		0000000000000000003A2A40 /* iff.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 30; path = iff.c; sourceTree = "<group>"; };
+		0000000000000000003A2A90 /* iffwrite.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 30; path = iffwrite.c; sourceTree = "<group>"; };
+		0000000000000000003B28E0 /* aiff.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = aiff.h; sourceTree = "<group>"; };
+		0000000000000000003B9C10 /* avrwrite.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 30; path = avrwrite.c; sourceTree = "<group>"; };
+		0000000000000000003BA6D0 /* aiff.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 30; path = aiff.c; sourceTree = "<group>"; };
+		0000000000000000003D4B80 /* compression.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 30; path = compression.c; sourceTree = "<group>"; };
+		0000000000000000003D8170 /* error.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 30; path = error.c; sourceTree = "<group>"; };
+		0000000000000000003DC520 /* extended.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 30; path = extended.c; sourceTree = "<group>"; };
+		0000000000000000003E46C0 /* rebuffer.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 30; path = rebuffer.c; sourceTree = "<group>"; };
+		0000000000000000003F7FC0 /* af_vfs.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 30; path = af_vfs.c; sourceTree = "<group>"; };
+		000000000000000016600D20 /* modules.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = modules.h; sourceTree = "<group>"; };
+		000000000000000016600DE0 /* next.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = next.h; sourceTree = "<group>"; };
+		000000000000000016600F40 /* nist.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = nist.h; sourceTree = "<group>"; };
+		000000000000000016602520 /* byteorder.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 30; path = byteorder.c; sourceTree = "<group>"; };
+		000000000000000016604F90 /* avr.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = avr.h; sourceTree = "<group>"; };
+		000000000000000016605480 /* aupvinternal.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = aupvinternal.h; sourceTree = "<group>"; };
+		0000000000000000166077B0 /* misc.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 30; path = misc.c; sourceTree = "<group>"; };
+		000000000000000016607800 /* modules.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 30; path = modules.c; sourceTree = "<group>"; };
+		000000000000000016607850 /* audiofile.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = audiofile.h; sourceTree = "<group>"; };
+		00000000000000001660BB40 /* track.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 30; path = track.c; sourceTree = "<group>"; };
+		00000000000000001660BDA0 /* adpcm.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 30; path = adpcm.c; sourceTree = "<group>"; };
+		00000000000000001660C9C0 /* pcm.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = pcm.h; sourceTree = "<group>"; };
+		00000000000000001660CA30 /* print.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = print.h; sourceTree = "<group>"; };
+		00000000000000001660CC10 /* pcm.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 30; path = pcm.c; sourceTree = "<group>"; };
+		00000000000000001660CE50 /* g711.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = g711.h; sourceTree = "<group>"; };
+		00000000000000001660CEC0 /* ima.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = ima.h; sourceTree = "<group>"; };
+		00000000000000001660D460 /* compression.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = compression.h; sourceTree = "<group>"; };
+		00000000000000001660DE40 /* adpcm.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = adpcm.h; sourceTree = "<group>"; };
+		00000000000000001660DF20 /* g711.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = g711.h; sourceTree = "<group>"; };
+		00000000000000001660DF90 /* iff.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = iff.h; sourceTree = "<group>"; };
+		000000000000000016610EC0 /* pcm.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = pcm.h; sourceTree = "<group>"; };
+		000000000000000016610FE0 /* rebuffer.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = rebuffer.h; sourceTree = "<group>"; };
+		0000000000000000166118B0 /* aupv.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 30; path = aupv.c; sourceTree = "<group>"; };
+		000000000000000016612050 /* nistwrite.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 30; path = nistwrite.c; sourceTree = "<group>"; };
+		000000000000000016613DF0 /* avr.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 30; path = avr.c; sourceTree = "<group>"; };
+		0000000000000000166145A0 /* byteorder.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = byteorder.h; sourceTree = "<group>"; };
+		0000000000000000166149D0 /* msadpcm.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 30; path = msadpcm.c; sourceTree = "<group>"; };
+		000000000000000016615510 /* instrument.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = instrument.h; sourceTree = "<group>"; };
+		0000000000000000166155C0 /* nist.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 30; path = nist.c; sourceTree = "<group>"; };
+		0000000000000000166160D0 /* g711.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 30; path = g711.c; sourceTree = "<group>"; };
+		000000000000000016616130 /* ircam.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 30; path = ircam.c; sourceTree = "<group>"; };
+		000000000000000016616180 /* ircamwrite.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 30; path = ircamwrite.c; sourceTree = "<group>"; };
+		0000000000000000166161D0 /* loop.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 30; path = loop.c; sourceTree = "<group>"; };
+		000000000000000016616B60 /* wave.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 30; path = wave.c; sourceTree = "<group>"; };
+		000000000000000016616BD0 /* wavewrite.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 30; path = wavewrite.c; sourceTree = "<group>"; };
+		000000000000000016616EE0 /* pcm.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 30; path = pcm.c; sourceTree = "<group>"; };
+		000000000000000016617950 /* instrument.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 30; path = instrument.c; sourceTree = "<group>"; };
+		0000000000000000166179C0 /* ima.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 30; path = ima.c; sourceTree = "<group>"; };
+		0000000000000000166180B0 /* marker.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 30; path = marker.c; sourceTree = "<group>"; };
+		000000000000000016619750 /* error.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = error.h; sourceTree = "<group>"; };
+		000000000000000016619AE0 /* extended.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = extended.h; sourceTree = "<group>"; };
+		00000000000000001661D2A0 /* raw.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 30; path = raw.c; sourceTree = "<group>"; };
+		00000000000000001661D530 /* query.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 30; path = query.c; sourceTree = "<group>"; };
+		00000000000000001661E180 /* units.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 30; path = units.c; sourceTree = "<group>"; };
+		00000000000000001661E700 /* afinternal.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = afinternal.h; sourceTree = "<group>"; };
+		00000000000000001661E7D0 /* setup.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 30; path = setup.c; sourceTree = "<group>"; };
+		00000000000000001661E960 /* openclose.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 30; path = openclose.c; sourceTree = "<group>"; };
+		00000000000000001661ECE0 /* aupvlist.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = aupvlist.h; sourceTree = "<group>"; };
+		00000000000000001661F380 /* util.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 30; path = util.c; sourceTree = "<group>"; };
+		00000000000000001661F710 /* ircam.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = ircam.h; sourceTree = "<group>"; };
+		00000000000000001661F940 /* msadpcm.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = msadpcm.h; sourceTree = "<group>"; };
+		00000000000000001661FFA0 /* marker.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = marker.h; sourceTree = "<group>"; };
+		000000000000000016620170 /* next.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 30; path = next.c; sourceTree = "<group>"; };
+		000000000000000016620470 /* g711.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 30; path = g711.c; sourceTree = "<group>"; };
+		0000000000000000166207A0 /* raw.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = raw.h; sourceTree = "<group>"; };
+		000000000000000016620860 /* setup.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = setup.h; sourceTree = "<group>"; };
+		0000000000000000166208E0 /* track.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = track.h; sourceTree = "<group>"; };
+		000000000000000016620A20 /* units.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = units.h; sourceTree = "<group>"; };
+		000000000000000016620B50 /* util.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = util.h; sourceTree = "<group>"; };
+		000000000000000016620BD0 /* wave.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = wave.h; sourceTree = "<group>"; };
+		B62395C00C1CF586003B8E87 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B62395C10C1CF586003B8E87 /* audiofile.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = audiofile.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B62395C80C1CF5AC003B8E87 /* config.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = config.h; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B62395BA0C1CF586003B8E87 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0000000000000000003C6E20 /* libaudiofile */ = {
+			isa = PBXGroup;
+			children = (
+				0000000000000000003A29E0 /* aes.c */,
+				0000000000000000003F7FC0 /* af_vfs.c */,
+				0000000000000000003A2720 /* af_vfs.h */,
+				00000000000000001661E700 /* afinternal.h */,
+				0000000000000000003BA6D0 /* aiff.c */,
+				0000000000000000003B28E0 /* aiff.h */,
+				000000000000000000388830 /* aiffwrite.c */,
+				000000000000000016607850 /* audiofile.h */,
+				0000000000000000166118B0 /* aupv.c */,
+				000000000000000016605480 /* aupvinternal.h */,
+				00000000000000001661ECE0 /* aupvlist.h */,
+				000000000000000016613DF0 /* avr.c */,
+				000000000000000016604F90 /* avr.h */,
+				0000000000000000003B9C10 /* avrwrite.c */,
+				000000000000000016602520 /* byteorder.c */,
+				0000000000000000166145A0 /* byteorder.h */,
+				B62395C80C1CF5AC003B8E87 /* config.h */,
+				0000000000000000003D4B80 /* compression.c */,
+				00000000000000001660D460 /* compression.h */,
+				000000000000000000310F20 /* data.c */,
+				000000000000000000327F20 /* debug.c */,
+				0000000000000000003A28E0 /* debug.h */,
+				0000000000000000003D8170 /* error.c */,
+				000000000000000016619750 /* error.h */,
+				0000000000000000003DC520 /* extended.c */,
+				000000000000000016619AE0 /* extended.h */,
+				00000000000000000030C140 /* format.c */,
+				0000000000000000166160D0 /* g711.c */,
+				00000000000000001660DF20 /* g711.h */,
+				0000000000000000003A2A40 /* iff.c */,
+				00000000000000001660DF90 /* iff.h */,
+				0000000000000000003A2A90 /* iffwrite.c */,
+				000000000000000016617950 /* instrument.c */,
+				000000000000000016615510 /* instrument.h */,
+				000000000000000016616130 /* ircam.c */,
+				00000000000000001661F710 /* ircam.h */,
+				000000000000000016616180 /* ircamwrite.c */,
+				0000000000000000166161D0 /* loop.c */,
+				0000000000000000166180B0 /* marker.c */,
+				00000000000000001661FFA0 /* marker.h */,
+				0000000000000000166077B0 /* misc.c */,
+				00000000000000001661F020 /* modules */,
+				000000000000000016607800 /* modules.c */,
+				000000000000000016600D20 /* modules.h */,
+				000000000000000016620170 /* next.c */,
+				000000000000000016600DE0 /* next.h */,
+				0000000000000000003A0D00 /* nextwrite.c */,
+				0000000000000000166155C0 /* nist.c */,
+				000000000000000016600F40 /* nist.h */,
+				000000000000000016612050 /* nistwrite.c */,
+				00000000000000001661E960 /* openclose.c */,
+				000000000000000016616EE0 /* pcm.c */,
+				00000000000000001660C9C0 /* pcm.h */,
+				00000000000000001660CA30 /* print.h */,
+				00000000000000001661D530 /* query.c */,
+				00000000000000001661D2A0 /* raw.c */,
+				0000000000000000166207A0 /* raw.h */,
+				00000000000000001661E7D0 /* setup.c */,
+				000000000000000016620860 /* setup.h */,
+				00000000000000001660BB40 /* track.c */,
+				0000000000000000166208E0 /* track.h */,
+				00000000000000001661E180 /* units.c */,
+				000000000000000016620A20 /* units.h */,
+				00000000000000001661F380 /* util.c */,
+				000000000000000016620B50 /* util.h */,
+				000000000000000016616B60 /* wave.c */,
+				000000000000000016620BD0 /* wave.h */,
+				000000000000000016616BD0 /* wavewrite.c */,
+			);
+			name = libaudiofile;
+			path = audiofile/libaudiofile;
+			sourceTree = "<group>";
+		};
+		0000000000000000166142F0 = {
+			isa = PBXGroup;
+			children = (
+				0000000000000000003C6E20 /* libaudiofile */,
+				00000000000000001661FFF0 /* Products */,
+				B62395C00C1CF586003B8E87 /* Info.plist */,
+			);
+			sourceTree = "<group>";
+		};
+		00000000000000001661F020 /* modules */ = {
+			isa = PBXGroup;
+			children = (
+				00000000000000001660BDA0 /* adpcm.c */,
+				00000000000000001660DE40 /* adpcm.h */,
+				000000000000000016620470 /* g711.c */,
+				00000000000000001660CE50 /* g711.h */,
+				0000000000000000166179C0 /* ima.c */,
+				00000000000000001660CEC0 /* ima.h */,
+				0000000000000000166149D0 /* msadpcm.c */,
+				00000000000000001661F940 /* msadpcm.h */,
+				00000000000000001660CC10 /* pcm.c */,
+				000000000000000016610EC0 /* pcm.h */,
+				0000000000000000003E46C0 /* rebuffer.c */,
+				000000000000000016610FE0 /* rebuffer.h */,
+			);
+			path = modules;
+			sourceTree = "<group>";
+		};
+		00000000000000001661FFF0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B62395C10C1CF586003B8E87 /* audiofile.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		B623958B0C1CF586003B8E87 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B66F97940C1D6FA3003CB91F /* audiofile.h in Headers */,
+				B66F97960C1D6FAD003CB91F /* aupvlist.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		B623958A0C1CF586003B8E87 /* audiofile Framework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B62395BC0C1CF586003B8E87 /* Build configuration list for PBXNativeTarget "audiofile Framework" */;
+			buildPhases = (
+				B623958B0C1CF586003B8E87 /* Headers */,
+				B623958C0C1CF586003B8E87 /* Resources */,
+				B623958D0C1CF586003B8E87 /* Sources */,
+				B62395BA0C1CF586003B8E87 /* Frameworks */,
+				B62395BB0C1CF586003B8E87 /* Rez */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "audiofile Framework";
+			productInstallPath = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+			productName = audiofile;
+			productReference = B62395C10C1CF586003B8E87 /* audiofile.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		000000000000000016601A90 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+			};
+			buildConfigurationList = B62395470C1CF4F8003B8E87 /* Build configuration list for PBXProject "audiofile" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 0000000000000000166142F0;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B623958A0C1CF586003B8E87 /* audiofile Framework */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B623958C0C1CF586003B8E87 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXRezBuildPhase section */
+		B62395BB0C1CF586003B8E87 /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXRezBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B623958D0C1CF586003B8E87 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B623958E0C1CF586003B8E87 /* aes.c in Sources */,
+				B623958F0C1CF586003B8E87 /* af_vfs.c in Sources */,
+				B62395900C1CF586003B8E87 /* aiff.c in Sources */,
+				B62395910C1CF586003B8E87 /* aiffwrite.c in Sources */,
+				B62395920C1CF586003B8E87 /* aupv.c in Sources */,
+				B62395930C1CF586003B8E87 /* avr.c in Sources */,
+				B62395940C1CF586003B8E87 /* avrwrite.c in Sources */,
+				B62395950C1CF586003B8E87 /* byteorder.c in Sources */,
+				B62395960C1CF586003B8E87 /* compression.c in Sources */,
+				B62395970C1CF586003B8E87 /* data.c in Sources */,
+				B62395980C1CF586003B8E87 /* debug.c in Sources */,
+				B62395990C1CF586003B8E87 /* error.c in Sources */,
+				B623959A0C1CF586003B8E87 /* extended.c in Sources */,
+				B623959B0C1CF586003B8E87 /* format.c in Sources */,
+				B623959C0C1CF586003B8E87 /* g711.c in Sources */,
+				B623959D0C1CF586003B8E87 /* iff.c in Sources */,
+				B623959E0C1CF586003B8E87 /* iffwrite.c in Sources */,
+				B623959F0C1CF586003B8E87 /* instrument.c in Sources */,
+				B62395A00C1CF586003B8E87 /* ircam.c in Sources */,
+				B62395A10C1CF586003B8E87 /* ircamwrite.c in Sources */,
+				B62395A20C1CF586003B8E87 /* loop.c in Sources */,
+				B62395A30C1CF586003B8E87 /* marker.c in Sources */,
+				B62395A40C1CF586003B8E87 /* misc.c in Sources */,
+				B62395A50C1CF586003B8E87 /* modules.c in Sources */,
+				B62395A60C1CF586003B8E87 /* adpcm.c in Sources */,
+				B62395A70C1CF586003B8E87 /* g711.c in Sources */,
+				B62395A80C1CF586003B8E87 /* ima.c in Sources */,
+				B62395A90C1CF586003B8E87 /* msadpcm.c in Sources */,
+				B62395AA0C1CF586003B8E87 /* pcm.c in Sources */,
+				B62395AB0C1CF586003B8E87 /* rebuffer.c in Sources */,
+				B62395AC0C1CF586003B8E87 /* next.c in Sources */,
+				B62395AD0C1CF586003B8E87 /* nextwrite.c in Sources */,
+				B62395AE0C1CF586003B8E87 /* nist.c in Sources */,
+				B62395AF0C1CF586003B8E87 /* nistwrite.c in Sources */,
+				B62395B00C1CF586003B8E87 /* openclose.c in Sources */,
+				B62395B10C1CF586003B8E87 /* pcm.c in Sources */,
+				B62395B20C1CF586003B8E87 /* query.c in Sources */,
+				B62395B30C1CF586003B8E87 /* raw.c in Sources */,
+				B62395B40C1CF586003B8E87 /* setup.c in Sources */,
+				B62395B50C1CF586003B8E87 /* track.c in Sources */,
+				B62395B60C1CF586003B8E87 /* units.c in Sources */,
+				B62395B70C1CF586003B8E87 /* util.c in Sources */,
+				B62395B80C1CF586003B8E87 /* wave.c in Sources */,
+				B62395B90C1CF586003B8E87 /* wavewrite.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		B62395480C1CF4F8003B8E87 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEPLOYMENT_POSTPROCESSING = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_VERSION = 0.2.6;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Development;
+		};
+		B62395490C1CF4F8003B8E87 /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEPLOYMENT_POSTPROCESSING = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_VERSION = 0.2.6;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				SDKROOT = macosx;
+			};
+			name = Deployment;
+		};
+		B623954A0C1CF4F8003B8E87 /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEPLOYMENT_POSTPROCESSING = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_VERSION = 0.2.6;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				SDKROOT = macosx;
+			};
+			name = Default;
+		};
+		B62395BD0C1CF586003B8E87 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1.2;
+				FRAMEWORK_VERSION = 0.2.6;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					HAVE_CONFIG_H,
+					NDEBUG,
+					PIC,
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					../audiofile/audiofile,
+					../audiofile/audiofile/libaudiofile,
+				);
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "@executable_path/../Frameworks";
+				OTHER_CFLAGS = "-all_load";
+				OTHER_LDFLAGS = (
+					"-lm",
+					"-lc",
+				);
+				OTHER_LIBTOOL_FLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRINCIPAL_CLASS = "";
+				PRODUCT_NAME = audiofile;
+				SDKROOT = macosx;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = "";
+				WRAPPER_EXTENSION = framework;
+				ZERO_LINK = YES;
+			};
+			name = Development;
+		};
+		B62395BE0C1CF586003B8E87 /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1.2;
+				FRAMEWORK_VERSION = 0.2.6;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					HAVE_CONFIG_H,
+					NDEBUG,
+					PIC,
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					../audiofile/audiofile,
+					../audiofile/audiofile/libaudiofile,
+				);
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "@executable_path/../Frameworks";
+				OTHER_CFLAGS = "-all_load";
+				OTHER_LDFLAGS = (
+					"-lm",
+					"-lc",
+				);
+				OTHER_LIBTOOL_FLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRINCIPAL_CLASS = "";
+				PRODUCT_NAME = audiofile;
+				SDKROOT = macosx;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = "";
+				WRAPPER_EXTENSION = framework;
+				ZERO_LINK = NO;
+			};
+			name = Deployment;
+		};
+		B62395BF0C1CF586003B8E87 /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1.2;
+				FRAMEWORK_VERSION = 0.2.6;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					HAVE_CONFIG_H,
+					NDEBUG,
+					PIC,
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					../audiofile/audiofile,
+					../audiofile/audiofile/libaudiofile,
+				);
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "@executable_path/../Frameworks";
+				OTHER_CFLAGS = "-all_load";
+				OTHER_LDFLAGS = (
+					"-lm",
+					"-lc",
+				);
+				OTHER_LIBTOOL_FLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRINCIPAL_CLASS = "";
+				PRODUCT_NAME = audiofile;
+				SDKROOT = macosx;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = "";
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Default;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B62395470C1CF4F8003B8E87 /* Build configuration list for PBXProject "audiofile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B62395480C1CF4F8003B8E87 /* Development */,
+				B62395490C1CF4F8003B8E87 /* Deployment */,
+				B623954A0C1CF4F8003B8E87 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+		B62395BC0C1CF586003B8E87 /* Build configuration list for PBXNativeTarget "audiofile Framework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B62395BD0C1CF586003B8E87 /* Development */,
+				B62395BE0C1CF586003B8E87 /* Deployment */,
+				B62395BF0C1CF586003B8E87 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 000000000000000016601A90 /* Project object */;
+}
