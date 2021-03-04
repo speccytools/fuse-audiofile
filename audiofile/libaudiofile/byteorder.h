@@ -28,7 +28,7 @@
 #ifndef BYTEORDER_H
 #define BYTEORDER_H
 
-#include <config.h>
+#include "config.h"
 
 #if WORDS_BIGENDIAN
 	#define __BIGENDIAN__
